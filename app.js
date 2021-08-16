@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var serv = require('http').Server(app);
 var io = require('socket.io')(serv,{});
-var port = 2000;
+var port = process.env.PORT || 2000;
 var DEBUG = true;
 
 //Открывает индекс файл если на серв поступил пустой запрос
