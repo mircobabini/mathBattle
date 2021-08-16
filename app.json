@@ -1,0 +1,7 @@
+{
+  "name": "math-battle",
+  "description": "Extensible multiplayer math battle game written in JavaScript.",
+  "repository": "https://github.com/mircobabini/mathBattle",
+  "website": "https://github.com/mircobabini/mathBattle",
+  "keywords": ["http", "javascript", "math", "battle", "game", "multiplayer", "web", "socket"]
+}
